@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(107, 92, 92);   
+   }
+   nav{
+    text-transform: uppercase;
+    display: inline-flex;
+    background-color: rgb(52, 46, 46);
+    width: 200px;
+    height: 800px;
+   }
+   nav li a{
+    color: white;
+   }
+header{
+    background-color: rgb(211, 194, 194);
+    height: 100px;
+    width: 100%;
+}
+nav{
+
+}
