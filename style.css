@@ -15,8 +15,9 @@ header{
     background-color: rgb(211, 194, 194);
     height: 100px;
     width: 100%;
+    text-align:center;
 }
 #moto{
     height: 100px;
-    width: 20%;
+    width: 100%;
 }
