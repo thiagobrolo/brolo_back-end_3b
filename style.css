@@ -1,23 +1,43 @@
-body{
-    background-color: rgb(107, 92, 92);   
-   }
-   nav{
-    text-transform: uppercase;
-    display: inline-flex;
-    background-color: rgb(52, 46, 46);
-    width: 200px;
-    height: 800px;
-   }
-   nav li a{
-    color: white;
-   }
 header{
-    background-color: rgb(211, 194, 194);
-    height: 100px;
-    width: 100%;
-    text-align:center;
+    background-color: rgb(107, 86, 86);
+    height: 150px;
 }
-#moto{
-    height: 100px;
-    width: 100%;
+nav{
+    background-color: rgb(81, 81, 94);
+    display: inline-flex;
+    height: 800px;
+    width: 200px;
+}
+nav li{
+    display: flex;
+}
+
+nav li a{
+    color:gray;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+nav li a:hover{
+    background-color: aqua;
+}
+
+
+main{
+    display: inline;
+    position: absolute;
+    padding: 20px; /* Adicionar um pouco de espaço para evitar que o conteúdo toque o footer */
+
+    }
+body{
+    background-color: beige;
+}
+#imagem{
+    width: 500px;
+    height: 150%;
+}
+#porquinho{
+    width: 1000px;
+    height: 900%;
 }
